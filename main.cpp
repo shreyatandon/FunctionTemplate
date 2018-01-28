@@ -3,7 +3,7 @@
 using namespace std;
 
 
-//Single "K" means only only one template parameters
+//Single "K" means only one template parameters
 template<typename K>
 K sum(K x, K y)
 {
@@ -11,7 +11,7 @@ K sum(K x, K y)
 	return z;
 }
 
-
+//"K1" and "K2" are Two template parameters
 template<typename K1, typename K2>
 K1 sum(K1 x, K2 y)
 {
